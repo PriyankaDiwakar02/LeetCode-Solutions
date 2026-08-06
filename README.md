@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0040-combination-sum-ii) |
+| [0045-jump-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
 | [3731-find-missing-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3731-find-missing-elements) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
 ## Recursion
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 ## Depth-First Search
 |  |
 | ------- |
