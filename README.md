@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 ## Game Theory
@@ -114,4 +116,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3345-smallest-divisible-digit-product-i) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
