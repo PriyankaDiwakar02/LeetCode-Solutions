@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
+| [0058-length-of-last-word](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0058-length-of-last-word) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Hash Table
 |  |
