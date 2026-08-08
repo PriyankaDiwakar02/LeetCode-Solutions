@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0190-reverse-bits) |
 ## Array
 |  |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0002-add-two-numbers) |
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0066-plus-one](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0069-sqrtx) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Hash Table
@@ -117,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 ## Greedy
 |  |
 | ------- |
