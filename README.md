@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0047-permutations-ii) |
 | [0066-plus-one](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0066-plus-one) |
+| [0088-merge-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
 | [3731-find-missing-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3731-find-missing-elements) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0047-permutations-ii) |
+| [0088-merge-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [3731-find-missing-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3731-find-missing-elements) |
 ## Simulation
 |  |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0088-merge-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Manacher
 |  |
