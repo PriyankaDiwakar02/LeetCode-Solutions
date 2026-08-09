@@ -1,18 +1,11 @@
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
 class Solution:
-    def deleteDuplicates(self, head):
-        if not head:
-            return head
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        res = head
 
-        current = head
-        while current.next:
-            if current.val == current.next.val:
-                current.next = current.next.next
+        while head and head.next:
+            if head.val == head.next.val:
+                head.next = head.next.next
             else:
-                current = current.next
-
-        return head
+                head = head.next
+        
+        return res
