@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0190-reverse-bits) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Array
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3731-find-missing-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3731-find-missing-elements) |
 ## Math
 |  |
