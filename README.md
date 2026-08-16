@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0190-reverse-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0190-reverse-bits) |
 ## Bit Manipulation
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0051-n-queens) |
 | [0066-plus-one](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
@@ -212,15 +214,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 ## Algorithm X
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0051-n-queens) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
