@@ -1,28 +1,23 @@
 class Solution:
     def largestInteger(self, nums: List[int], k: int) -> int:
-        n = len(nums)
-
-        if n == k:
+        d=Counter(nums)
+        a,b=nums[0],nums[-1]
+        da,db=d[a],d[b]
+        if k==len(nums):
             return max(nums)
-
-        c = [0] * 51
-
-        for i in nums:
-            c[i] += 1
-
-        if k == 1:
-            for i in range(50, -1, -1):
-                if c[i] == 1:
-                    return i
-
+        if k==1:
+            mx=-1
+            for i in d:
+                if d[i]==1:
+                    mx=max(mx,i)
+            return mx
+        if a==b:
             return -1
-
-        res = -1
-
-        if c[nums[0]] == 1:
-            res = max(res, nums[0])
-
-        if c[nums[-1]] == 1:
-            res = max(res, nums[-1])
-
-        return res
+        elif da>1 and db>1:
+            return -1
+        elif da>1 and db==1:
+            return b
+        elif db>1 and da==1:
+            return a
+        elif da==1 and db==1:
+            return max(a,b)
