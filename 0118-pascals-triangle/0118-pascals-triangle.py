@@ -1,11 +1,11 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        finalNums=[]
-        finalNums.append([1])
-        for i in range(numRows-1):
-            newRow=[1]
-            for j in range(i):
-                newRow.append(finalNums[i][j]+finalNums[i][j+1])
-            newRow.append(1)
-            finalNums.append(newRow)
-        return finalNums
+        ans = []
+        for a in range(numRows):
+            listy = []
+            i = 0
+            while a >= i:
+                listy.append(comb(a,i))
+                i += 1
+            ans.append(listy)
+        return ans
