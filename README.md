@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2029-stone-game-ix) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3731-find-missing-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3731-find-missing-elements) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Greedy
 |  |
 | ------- |
