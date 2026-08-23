@@ -1,15 +1,27 @@
 class Solution {
 public:
-    bool sumGame(string& num) {
-        const int n=num.size(), n2=n>>1;
-        int diff=0;
-        for(int i=0; i<n; i++){
-            const char c=num[i];
-            bool isq=c=='?', half=i<n2;
-            int sgn=(half<<1)-1;
-            int d=(-isq & 9)+(-!isq & (c-'0')<<1);
-            diff+=sgn*d;
+    bool sumGame(string s) {
+        double res = 0;
+        double n = s.length();
+        for (int i = 0; i < n; i++) {
+            double sign;
+            if (i < n / 2) {
+                sign = 1;
+            } else {
+                sign = -1;
+            }
+            double value;
+            if (s[i] == '?') {
+                value = 4.5;
+            } else {
+                value = s[i] - '0';
+            }
+            res += sign * value;
         }
-        return diff!=0;
+        if (res != 0.0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 };
