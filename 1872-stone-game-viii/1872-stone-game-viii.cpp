@@ -1,19 +1,24 @@
 class Solution {
 public:
-    static int stoneGameVIII(vector<int>& stones) {
-        const int n=stones.size();
-        partial_sum(stones.begin(), stones.end(), stones.begin());
-        int dp=stones.back();
-        for(int i=n-2; i>=1; i--){
-            dp=max(dp, stones[i]-dp);
+    int stoneGameVIII(vector<int>& stones) {
+        int n = stones.size();
+
+        vector<int> prefix = stones;
+
+        // Build prefix sums
+        for (int i = 1; i < n; i++) {
+            prefix[i] += prefix[i - 1];
         }
-        return dp;
+
+        // If Alice takes all stones,
+        // the game ends immediately.
+        int best = prefix[n - 1];
+
+        // Try every earlier valid prefix
+        for (int i = n - 2; i >= 1; i--) {
+            best = max(best, prefix[i] - best);
+        }
+
+        return best;
     }
 };
-
-auto init = []() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    return 'c';
-}();
