@@ -1,14 +1,14 @@
 class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
-        unordered_set<int> present(nums.begin(), nums.end());
+        unordered_set<int> numbers(nums.begin(), nums.end());
 
-        int multiple = k;
+        int currentMultiple = k;
 
-        while (present.count(multiple)) {
-            multiple += k;
+        while (numbers.count(currentMultiple)) {
+            currentMultiple += k;
         }
 
-        return multiple;
+        return currentMultiple;
     }
 };
