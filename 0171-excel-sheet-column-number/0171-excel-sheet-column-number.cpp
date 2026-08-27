@@ -1,11 +1,15 @@
+
 class Solution {
 public:
-    int titleToNumber(string col) {
-        int n = col.size();
-        int ans = 0;
-        for(int i = n - 1; i >= 0; i--) {
-            ans += (col[i] - 'A' + 1) * pow(26, n - i - 1);
+    int titleToNumber(string columnTitle) {
+        int result = 0;
+        for(char c : columnTitle)
+        {
+			//d = s[i](char) - 'A' + 1 (we used  s[i] -  'A' to convert the letter to a number like it's going to be C)
+
+            int d = c - 'A' + 1;
+            result = result * 26 + d;
         }
-        return ans;
+        return result;
     }
 };
