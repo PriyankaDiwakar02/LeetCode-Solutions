@@ -1,64 +1,53 @@
 class Solution {
 public:
-    string lexGreaterPermutation(string s, string target) {
-        int n = s.size();
-
-        // Frequency of characters in s
-        vector<int> cnt(26, 0);
-
+    static string lexGreaterPermutation(string& s, string& target) {
+        const int n=s.size();
+        array<int, 26> freq={0}, freq0;
+        unsigned hasC=0, hasC0;
         for (char c : s) {
-            cnt[c - 'a']++;
+            const int idx=c-'a';
+            if (++freq[idx]==1)
+                hasC|=(1u<<idx);
         }
 
-        // Try the position where we make the string greater.
-        // Rightmost position is preferred.
-        for (int i = n - 1; i >= 0; i--) {
+        int diffPos=-1;
+        freq0=freq, hasC0=hasC;
+        for (int i=0; i<n; i++) {
+            int largestC=31-countl_zero(hasC0);
+            int idx=target[i]-'a';
+            if (largestC < idx) break;
+            if (largestC > idx) diffPos=i;
+            if (freq0[idx]>0) {
+                if (--freq0[idx]==0) hasC0 &=~(1u<<idx);
+            } 
+            else break;
+        }
+    //    cout<<diffPos<<endl;
+        if (diffPos==-1) return "";
 
-            // Rebuild the frequency array for this pivot.
-            vector<int> remain = cnt;
-
-            // Try to keep target[0 ... i-1] unchanged.
-            bool possible = true;
-
-            for (int j = 0; j < i; j++) {
-                int x = target[j] - 'a';
-
-                if (remain[x] == 0) {
-                    possible = false;
-                    break;
-                }
-
-                remain[x]--;
-            }
-
-            if (!possible)
-                continue;
-
-            // At position i, we need the smallest
-            // available character strictly greater than target[i].
-            int targetChar = target[i] - 'a';
-
-            for (int c = targetChar + 1; c < 26; c++) {
-
-                if (remain[c] == 0)
-                    continue;
-
-                string ans = target.substr(0, i);
-
-                // Make the first difference here.
-                ans += char('a' + c);
-
-                remain[c]--;
-
-                // Fill the rest in sorted order.
-                for (int x = 0; x < 26; x++) {
-                    ans.append(remain[x], char('a' + x));
-                }
-
-                return ans;
-            }
+        // rebuild s up to diffPos
+        for (int j=0; j<diffPos; j++) {
+            int idx=target[j]-'a';
+            s[j]=target[j];
+            if (--freq[idx]==0) hasC &=~(1u<<idx);
         }
 
-        return "";
+        // increase at diffPos
+        int shift=target[diffPos]-'a'+1;
+        unsigned higher=hasC>>shift;
+        if (higher==0) return "";
+        int idx=countr_zero(higher)+shift;
+        s[diffPos]='a'+idx;
+        if (--freq[idx]==0) hasC&=~(1u<<idx); 
+
+        // fill remaining with smallest
+        for (int j=diffPos+1; j<n; j++) {
+            idx=countr_zero(hasC);
+            if (!hasC) return "";
+            s[j]='a'+idx;
+            if (--freq[idx]==0) hasC&=~(1u<<idx);
+        }
+
+        return s;
     }
 };
