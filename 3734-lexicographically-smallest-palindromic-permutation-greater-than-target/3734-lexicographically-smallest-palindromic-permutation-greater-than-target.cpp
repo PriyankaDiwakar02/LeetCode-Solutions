@@ -1,167 +1,126 @@
 class Solution {
 public:
-    string lexPalindromicPermutation(string s, string target) {
-        int n = s.length();
-        vector<int> freq(26);
+    string buildPalindrome(const string& half, char middle) {
+        string result = half;
 
-        for(char ch : s) {
-            freq[ch - 'a']++;
+        if (middle != 0) {
+            result += middle;
         }
 
-        int cntOddFreq = 0;
-        char odd;
+        for (int i = (int)half.size() - 1; i >= 0; --i) {
+            result += half[i];
+        }
 
-        for(int i = 0; i < 26; i++) {
-            if(freq[i] % 2 == 1) {
-                cntOddFreq++;
-                odd = char('a' + i);
+        return result;
+    }
+
+    string smallestGreaterOrEqual(vector<int> count, const string& targetHalf) {
+        int k = targetHalf.size();
+        int matched = 0;
+
+        while (matched < k && count[targetHalf[matched] - 'a'] > 0) {
+            --count[targetHalf[matched] - 'a'];
+            ++matched;
+        }
+
+        if (matched == k) {
+            return targetHalf;
+        }
+
+        for (int pos = matched; pos >= 0; --pos) {
+            if (pos < matched) {
+                ++count[targetHalf[pos] - 'a'];
             }
 
-            freq[i] /= 2;
-        }
+            for (int c = targetHalf[pos] - 'a' + 1; c < 26; ++c) {
+                if (count[c] == 0) continue;
 
-        if(cntOddFreq > 1) {
-            return "";
-        }
+                string result = targetHalf.substr(0, pos);
+                result += char('a' + c);
+                --count[c];
 
-        string ans;
-
-        // Build left half
-        for(int i = 0; i < n / 2; i++) {
-            int x = target[i] - 'a';
-
-            // Try to keep prefix equal
-            if(freq[x]) {
-                ans += target[i];
-                freq[x]--;
-                continue;
-            }
-
-            // Try the smallest character greater than target[i]
-            for(int c = x + 1; c < 26; c++) {
-                if(!freq[c]) {
-                    continue;
+                for (int ch = 0; ch < 26; ++ch) {
+                    result.append(count[ch], char('a' + ch));
                 }
 
-                ans += char('a' + c);
-                freq[c]--;
-
-                // Fill remaining left half
-                for(int j = 0; j < 26; j++) {
-                    ans += string(freq[j], 'a' + j);
-                }
-
-                int size = ans.size();
-
-                // Add middle character
-                if(cntOddFreq == 1) {
-                    ans += odd;
-                }
-
-                // Add right half
-                for(int j = size - 1; j >= 0; j--) {
-                    ans += ans[j];
-                }
-
-                return ans;
-            }
-
-            // Cannot continue, so backtrack
-            while(!ans.empty()) {
-                int prev = ans.back() - 'a';
-
-                ans.pop_back();
-                freq[prev]++;
-
-                int pos = ans.size();
-                int y = target[pos] - 'a';
-
-                // Try to make this position greater
-                for(int c = y + 1; c < 26; c++) {
-                    if(!freq[c]) {
-                        continue;
-                    }
-
-                    ans += char('a' + c);
-                    freq[c]--;
-
-                    // Fill remaining left half
-                    for(int j = 0; j < 26; j++) {
-                        ans += string(freq[j], 'a' + j);
-                    }
-
-                    int size = ans.size();
-
-                    if(cntOddFreq == 1) {
-                        ans += odd;
-                    }
-
-                    // Mirror
-                    for(int j = size - 1; j >= 0; j--) {
-                        ans += ans[j];
-                    }
-
-                    return ans;
-                }
-            }
-
-            return "";
-        }
-
-        // Entire left half matched
-        // Check whether the palindrome is already greater than target
-        string temp = ans;
-
-        if(cntOddFreq == 1) {
-            temp += odd;
-        }
-
-        for(int i = ans.size() - 1; i >= 0; i--) {
-            temp += ans[i];
-        }
-
-        if(temp > target) {
-            return temp;
-        }
-
-        // Otherwise, backtrack
-        while(!ans.empty()) {
-            int prev = ans.back() - 'a';
-
-            ans.pop_back();
-            freq[prev]++;
-
-            int pos = ans.size();
-            int y = target[pos] - 'a';
-
-            for(int c = y + 1; c < 26; c++) {
-                if(!freq[c]) {
-                    continue;
-                }
-
-                ans += char('a' + c);
-                freq[c]--;
-
-                // Fill remaining left half
-                for(int j = 0; j < 26; j++) {
-                    ans += string(freq[j], 'a' + j);
-                }
-
-                int size = ans.size();
-
-                if(cntOddFreq == 1) {
-                    ans += odd;
-                }
-
-                // Mirror
-                for(int j = size - 1; j >= 0; j--) {
-                    ans += ans[j];
-                }
-
-                return ans;
+                return result;
             }
         }
 
         return "";
+    }
+
+    bool nextPermutation(string& half) {
+        int n = half.size();
+        int pivot = n - 2;
+
+        while (pivot >= 0 && half[pivot] >= half[pivot + 1]) {
+            --pivot;
+        }
+
+        if (pivot < 0) {
+            return false;
+        }
+
+        int swapPos = n - 1;
+
+        while (half[swapPos] <= half[pivot]) {
+            --swapPos;
+        }
+
+        swap(half[pivot], half[swapPos]);
+
+        reverse(half.begin() + pivot + 1, half.end());
+
+        return true;
+    }
+
+    string lexPalindromicPermutation(string s, string target) {
+        vector<int> frequency(26, 0);
+
+        for (char ch : s) {
+            ++frequency[ch - 'a'];
+        }
+
+        char middle = 0;
+        int oddCount = 0;
+
+        for (int c = 0; c < 26; ++c) {
+            if (frequency[c] % 2 == 1) {
+                ++oddCount;
+                middle = char('a' + c);
+            }
+        }
+
+        if (oddCount > 1) {
+            return "";
+        }
+
+        vector<int> halfCount(26, 0);
+
+        for (int c = 0; c < 26; ++c) {
+            halfCount[c] = frequency[c] / 2;
+        }
+
+        int k = s.size() / 2;
+        string targetHalf = target.substr(0, k);
+
+        string half = smallestGreaterOrEqual(halfCount, targetHalf);
+
+        if (half.empty() && k > 0) {
+            return ""; 
+        }
+
+        string candidate = buildPalindrome(half, middle);
+
+        if (candidate > target) {
+            return candidate;
+        }
+
+        if (!nextPermutation(half)) {
+            return "";
+        }
+
+        return buildPalindrome(half, middle);
     }
 };
