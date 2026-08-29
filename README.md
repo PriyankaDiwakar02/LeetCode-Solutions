@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
 | [1872-stone-game-viii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1872-stone-game-viii) |
 ## Stack
@@ -359,4 +361,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
