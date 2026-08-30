@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0053-maximum-subarray) |
+| [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0118-pascals-triangle](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0051-n-queens) |
+| [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Sorting
 |  |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0100-same-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -330,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0100-same-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -344,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 ## Counting
 |  |
