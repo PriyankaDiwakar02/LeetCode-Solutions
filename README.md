@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0069-sqrtx) |
 | [0168-excel-sheet-column-title](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0171-excel-sheet-column-number) |
+| [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0326-power-of-three](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0160-intersection-of-two-linked-lists](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [1386-cinema-seat-allocation](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1386-cinema-seat-allocation) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
@@ -284,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 | [0160-intersection-of-two-linked-lists](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
@@ -377,4 +380,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
