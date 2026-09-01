@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0050-powx-n) |
+| [0203-remove-linked-list-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0203-remove-linked-list-elements) |
 | [0326-power-of-three](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 ## Game Theory
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0147-insertion-sort-list](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0147-insertion-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0203-remove-linked-list-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0203-remove-linked-list-elements) |
 | [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 ## Two Pointers
 |  |
