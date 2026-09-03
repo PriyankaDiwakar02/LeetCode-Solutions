@@ -1,30 +1,37 @@
+#pragma GCC optimize("O3", "unroll-loops")
 class Solution {
 public:
-    bool isIsomorphic(string s, string t) {
+    bool isIsomorphic(string& s, string& t) {      
+        int n = s.size();
+        // Using size 256  for ASCII characters
+        bitset<256> s_char=0, t_char=0;
+        char st[256]={0};
+        char ts[256]={0};
         
-        unordered_map<char, char> mapS2T;
-        unordered_map<char, char> mapT2S;
-        
-        for (int i = 0; i < s.size(); ++i) {
-            char charS = s[i];
-            char charT = t[i];
-            
-            // Check if there's a mapping for charS in mapS2T and if it maps to the same character in t
-            if (mapS2T.find(charS) != mapS2T.end()) {
-                if (mapS2T[charS] != charT) {
-                    return false;
+        for(int i = 0; i < n; i++) {
+            char cs = s[i], ct = t[i];
+            if(s_char[cs]==0 && t_char[ct]==0) {
+                st[cs]=ct;
+                ts[ct]=cs;
+                s_char[cs]=1;
+                t_char[ct]=1;
+            }
+            else {
+                if(st[cs]!=ct || ts[ct]!=cs){
+            //        cout<<"["<<i<<"] wrong mapping with cs="<<cs<<", ct="<<ct<<endl;
+                    return 0;
                 }
-            } else { // If no mapping exists, check if charT is already mapped to some other character in mapT2S
-                if (mapT2S.find(charT) != mapT2S.end()) {
-                    return false;
-                }
-                
-                // Create new mapping since it's valid
-                mapS2T[charS] = charT;
-                mapT2S[charT] = charS;
             }
         }
-        
-        return true;
+        return 1;
     }
 };
+
+
+auto init = []()
+{ 
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    return 'c';
+}();
