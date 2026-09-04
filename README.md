@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
@@ -395,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Nim Game
 |  |
 | ------- |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [2029-stone-game-ix](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2029-stone-game-ix) |
 ## Combinatorics
 |  |
@@ -420,4 +424,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0278-first-bad-version) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
+## Impartial Game
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
