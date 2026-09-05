@@ -1,10 +1,8 @@
 class Solution {
 public:
-    bool isPowerOfThree(int n) {
-        if (n <= 0) return false;
-
-        double x = log(n) / log(3.0);
-
-        return abs(x - round(x)) < 1e-10;
+    static bool isPowerOfThree(int n) {
+        int e=log(INT_MAX)/log(3);
+        int N=pow(3, e);
+        return n>0 && N%n==0;
     }
 };
