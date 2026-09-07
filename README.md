@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0338-counting-bits) |
+| [0401-binary-watch](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0401-binary-watch) |
 | [1386-cinema-seat-allocation](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0257-binary-tree-paths](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0257-binary-tree-paths) |
+| [0401-binary-watch](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0401-binary-watch) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Sorting
 |  |
