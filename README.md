@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0169-majority-element) |
+| [0219-contains-duplicate-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0228-summary-ranges) |
 | [0283-move-zeroes](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0303-range-sum-query-immutable) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0205-isomorphic-strings) |
+| [0219-contains-duplicate-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [0290-word-pattern](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0383-ransom-note) |
 | [1386-cinema-seat-allocation](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1386-cinema-seat-allocation) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0219-contains-duplicate-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0219-contains-duplicate-ii) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Number Theory
