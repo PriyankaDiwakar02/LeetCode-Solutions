@@ -1,28 +1,31 @@
 class Solution {
 public:
-    int totalNumbers(vector<int>& digits) {
-        int n = digits.size();
-        unordered_map<int, int> mp;
-        int c = 0;
-        for (int i = 0; i < n; i++)
-            mp[digits[i]]++;
-        for (int i = 0; i < 9; i += 2) {
-            if (mp[i] == 0)
-                continue;
-            mp[i]--;
-            for (int j = 1; j < 10; j++) {
-                if (mp[j] == 0)
-                    continue;
-                mp[j]--;
-
-                for (int k = 0; k <= 9; k++) {
-                    if (mp[k] > 0)
-                        c++;
-                }
-                mp[j]++;
-            }
-            mp[i]++;
+   set<int>st;
+   int solve(string no,vector<bool>used,vector<int>&digits){
+      if(no.size()==3){
+           if(no[0]=='0')return 0;
+           int ns=stoi(no);
+           if(ns%2==0 && st.find(ns)==st.end()){
+            st.insert(ns);
+            return 1;
+           }
+           return 0;
+      }
+      int ans=0;
+      for(int i=0;i<digits.size();i++){
+        if(used[i]==false){
+            used[i]=true;
+            no+=to_string(digits[i]);
+            ans+=solve(no,used,digits);
+            no.pop_back();
+            used[i]=false;
         }
-        return c;
+      }
+      return ans;
+   }
+    int totalNumbers(vector<int>& digits) {
+        int n=digits.size();
+        vector<bool>used(n,false);
+       return solve("",used,digits); 
     }
 };
