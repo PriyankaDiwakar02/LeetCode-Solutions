@@ -1,31 +1,47 @@
 class Solution {
 public:
-    int minSumOfLengths(vector<int>& arr, int target) {
-        int n = arr.size();
-        int res = n + 1;
-        int total = 0;
-        int i = 0;
+    int minSumOfLengths(vector<int>& a, int target) {
+        int n = a.size();
 
-        vector<int> dp(n + 1, n);
+        vector<int> p;
+        vector<int> len(n, 0);
+        map<int, int> mp;
 
-        for (int j = 0; j < n; j++) {
-            total += arr[j];
+        mp[0] = -1;
 
-            while (total > target) {
-                total -= arr[i];
-                i++;
+        int s = 0;
+        int mini = -1;
+        int ans = n + 1;
+
+        for (int i = 0; i < n; i++) {
+            s += a[i];
+
+            if (mp.count(s - target)) {
+                int prev = mp[s - target];
+                len[i] = i - prev;
+
+                if (prev >= 0 && len[prev] > 0) {
+                    ans = min(ans, len[i] + len[prev]);
+                }
+
+                if (mini == -1) {
+                    mini = len[i];
+                } else {
+                    mini = min(mini, len[i]);
+                }
             }
 
-            dp[j + 1] = dp[j];
-
-            if (total == target) {
-                int len = j - i + 1;
-
-                res = min(res, len + dp[i]);
-                dp[j + 1] = min(dp[j], len);
+            if (mini > 0) {
+                len[i] = mini;
             }
+
+            mp[s] = i;
         }
 
-        return res == n + 1 ? -1 : res;
+        if (ans == n + 1) {
+            return -1;
+        }
+
+        return ans;
     }
 };
