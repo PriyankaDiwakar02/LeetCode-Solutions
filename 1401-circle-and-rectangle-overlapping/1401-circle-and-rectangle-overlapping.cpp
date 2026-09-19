@@ -1,17 +1,12 @@
 class Solution {
 public:
-    bool checkOverlap(int radius, int xCenter, int yCenter,
-                      int x1, int y1, int x2, int y2) {
-
-        // Find the closest point of rectangle to circle center
-        int closestX = max(x1, min(xCenter, x2));
-        int closestY = max(y1, min(yCenter, y2));
-
-        // Calculate squared distance
-        int dx = xCenter - closestX;
-        int dy = yCenter - closestY;
-
-        // Check if closest point is inside/on circle
-        return dx * dx + dy * dy <= radius * radius;
+    static bool checkOverlap(int r, int xC, int yC, int x1, int y1, int x2, int y2) {
+        x1-=xC, x2-=xC, y1-=yC, y2-=yC;
+        int D2=0;
+        D2+=(x1>0)?x1*x1:0;
+        D2+=(x2<0)?x2*x2:0;
+        D2+=(y1>0)?y1*y1:0;
+        D2+=(y2<0)?y2*y2:0;
+        return r*r>=D2;
     }
 };
