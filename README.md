@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0342-power-of-four) |
+| [0415-add-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0415-add-strings) |
 | [0486-predict-the-winner](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0836-rectangle-overlap](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0392-is-subsequence) |
+| [0415-add-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0415-add-strings) |
 | [0940-distinct-subsequences-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0940-distinct-subsequences-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1927-sum-game) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0258-add-digits) |
+| [0415-add-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0415-add-strings) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3498-reverse-degree-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3498-reverse-degree-of-a-string) |
 ## Greedy
