@@ -1,26 +1,25 @@
-class Solution {
-private:
-    vector<string> sol;
-    void backtrack(string &temp, int open, int close) {
-        if(open == 0 && close == 0){
-            sol.push_back(temp);
-            return;
-        }
-        if(open > 0){
-            temp.push_back('(');
-            backtrack(temp, open - 1, close);
-            temp.pop_back();
-        }
-        if(close > open){
-            temp.push_back(')');
-            backtrack(temp, open, close - 1);
-            temp.pop_back();
-        }
-    }
-public:
-    vector<string> generateParenthesis(int n) {
-        string str = "";
-        backtrack(str, n, n);
-        return sol;
-    }
+class Solution { 
+public: 
+    vector<string> generateParenthesis(int n) { 
+        vector<string> ans;
+        string cur;
+        function<void(int,int)> dfs = [&](int open, int close) {
+            if (open == 0 && close == 0) {
+                ans.push_back(cur);
+                return;
+            }
+            if (open > 0) {
+                cur.push_back('(');
+                dfs(open - 1, close);
+                cur.pop_back();
+            }
+            if (close > open) {
+                cur.push_back(')');
+                dfs(open, close - 1);
+                cur.pop_back();
+            }
+        };
+        dfs(n, n);
+        return ans;
+    } 
 };
