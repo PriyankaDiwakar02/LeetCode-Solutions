@@ -1,66 +1,28 @@
+constexpr int N=3e4;
+int st[N], top=-1;
+int dp[N];
 class Solution {
-
 public:
-
-    int lefttoright(string s){
-        int left = 0;
-        int right = 0;
-        int maxDis = 0;
-        int count = 0;
-
-        for(right = 0; right < s.size(); right++){
-
-            if(s[right] == '('){
-                count++;
+    static int longestValidParentheses(string& s) {
+        const int n=s.size();
+        if (n<2) return 0;
+        top=-1;
+        memset(dp, 0, n*sizeof(int));
+       
+        int ans=0;
+        for(int i=0; i<n; i++){
+            if (s[i]=='(') {
+                st[++top]=i;
             }
-            else{
-                count--;
+            else{ //s[i]=')'
+                if (top>=0){
+                    int x=st[top--];
+                    dp[i]=i-x+1;
+                    if (x>=1) dp[i]+=dp[x-1];
+                }
             }
-
-            if(count < 0){
-                count = 0;
-                left = right + 1;
-            }
-
-            if(count == 0){
-                maxDis = max(maxDis, right - left + 1);
-            }
+            ans=max(ans, dp[i]);
         }
-
-        return maxDis;
-    }
-
-    int righttoleft(string s){
-        reverse(s.begin(), s.end());
-
-        int left = 0;
-        int right = 0;
-        int maxDis = 0;
-        int count = 0;
-
-        for(right = 0; right < s.size(); right++){
-
-            if(s[right] == ')'){
-                count++;
-            }
-            else{
-                count--;
-            }
-
-            if(count < 0){
-                count = 0;
-                left = right + 1;
-            }
-
-            if(count == 0){
-                maxDis = max(maxDis, right - left + 1);
-            }
-        }
-
-        return maxDis;
-    }
-
-    int longestValidParentheses(string s) {
-        return max(righttoleft(s), lefttoright(s));
+        return ans;
     }
 };
