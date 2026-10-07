@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0290-word-pattern) |
+| [0301-remove-invalid-parentheses](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0345-reverse-vowels-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0392-is-subsequence) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0051-n-queens) |
 | [0095-unique-binary-search-trees-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0257-binary-tree-paths](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0401-binary-watch](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0401-binary-watch) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Sorting
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0112-path-sum) |
+| [0301-remove-invalid-parentheses](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0404-sum-of-left-leaves](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
 | [3310-remove-methods-from-project](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
