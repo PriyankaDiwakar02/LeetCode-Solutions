@@ -1,60 +1,26 @@
 class Solution {
 public:
+    int n;
+    inline int findSteps(vector<int>& nums, bool isInc=1){
+        int s=isInc?1:n-2, e=isInc?n:-1, d=(isInc<<1)-1, i, j;
+        for( i=s; i!=e; i+=d){
+            if (nums[i-d]>nums[i]) break;
+        }
+        if (i==e) return 1-isInc; 
+        if (nums[e-d]>nums[s-d]) return -1;
+
+        for ( j=i+d; j!=e; j+=d){ 
+            if (nums[j-d]>nums[j]) break; 
+        }
+        if (j!=e) return -1;
+        int k=i+1-isInc;
+        return min(k+1-isInc, n-k+1+isInc); 
+    }
     int minOperations(vector<int>& nums) {
-        int n=nums.size();
-        vector<int>temp;
-        for(int i=0;i<n;i++) temp.push_back(i);
-        if(temp==nums) return 0;
-        reverse(temp.begin(),temp.end()) ;
-        if(temp==nums) return 1;
-        vector<int>a,b;
-        a.push_back(nums[0]);
-        int i=1;bool inc=false;
-        if(nums[1]==(nums[0]+1)){
-            inc=true;
-            while(i<n&&nums[i]==nums[i-1]+1){
-                a.push_back(nums[i]);
-                i++;
-            }
-        }
-        else if(nums[1]==(nums[0]-1)){
-            inc=false;
-            while(i<n&&nums[i]==nums[i-1]-1){
-                a.push_back(nums[i]);
-                i++;
-            }
-        }
-        else{
-            if(nums[2]>nums[1]) inc=true;
-            else inc=false;
-        }
-        b.push_back(nums[i]);i++;
-        if(inc==true){
-            while(i<nums.size()&&nums[i]==(nums[i-1]+1)){
-                inc=true;
-                b.push_back(nums[i]);
-                i++;
-            }
-        }
-        else if(inc==false){
-            while(i<n&&nums[i]==(nums[i-1]-1)){
-                inc=false;
-                b.push_back(nums[i]);
-                i++;
-            }
-        }
-        if(a.size()+b.size()!=nums.size()) return -1;
-        int l1=a.size();
-        int l2=b.size();int op=INT_MAX;
-        cout<<l1<<l2;
-        if(inc==true) {
-            op=min(op,l1);
-            op=min(op,l2+2);
-        }
-        else{
-            op=min(op,l1+1);
-            op=min(op,l2+1);
-        }
-        return op;
+        n=nums.size();
+        if (n==1) return 0;
+        int step=findSteps(nums, 1);
+        if (step!=-1) return step;
+        return findSteps(nums, 0);
     }
 };
