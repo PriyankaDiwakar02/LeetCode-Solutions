@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1140-stone-game-ii) |
+| [1254-number-of-closed-islands](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1254-number-of-closed-islands) |
 | [1386-cinema-seat-allocation](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1406-stone-game-iii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0063-unique-paths-ii) |
 | [0835-image-overlap](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0835-image-overlap) |
+| [1254-number-of-closed-islands](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1254-number-of-closed-islands) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Backtracking
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1254-number-of-closed-islands](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1254-number-of-closed-islands) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0112-path-sum) |
 | [0301-remove-invalid-parentheses](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0301-remove-invalid-parentheses) |
 | [0404-sum-of-left-leaves](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0404-sum-of-left-leaves) |
+| [1254-number-of-closed-islands](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1254-number-of-closed-islands) |
 | [3310-remove-methods-from-project](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Graph Theory
@@ -552,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [1254-number-of-closed-islands](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Design
