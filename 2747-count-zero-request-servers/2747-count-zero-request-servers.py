@@ -1,24 +1,25 @@
 class Solution:
-    def countServers(self, n, logs, x, queries):
-        logs.sort(key=lambda a: a[1])
-        q = sorted((t, i) for i, t in enumerate(queries))
-        cnt = [0] * (n + 1)
-        ans = [0] * len(queries)
-        l = r = active = 0
-
-        for t, i in q:
-            while r < len(logs) and logs[r][1] <= t:
-                id = logs[r][0]
-                cnt[id] += 1
-                if cnt[id] == 1: active += 1
-                r += 1
-
-            while l < r and logs[l][1] < t - x:
-                id = logs[l][0]
-                cnt[id] -= 1
-                if cnt[id] == 0: active -= 1
-                l += 1
-
-            ans[i] = n - active
-
-        return ans
+    def countServers(self, n: int, logs: List[List[int]], x: int, queries: List[int]) -> List[int]:
+        dico={i:0 for i in range (1,n+1)}
+        logs=sorted(logs,key=lambda x:x[1])
+        queries=sorted([query,i] for i,query in enumerate(queries))
+        p=len(logs)
+        right,left=0,-1
+        countNull=n
+        res=[0]*len(queries)
+        for query,i in queries:
+            while right <p and logs[right][1]<=query:
+                serv=logs[right][0]
+                if dico[serv]==0:
+                    countNull-=1
+                dico[serv]+=1
+                right+=1
+            while left+1<p and logs[left+1][1]<query-x:
+                left+=1
+                serv=logs[left][0]
+                dico[serv]-=1
+                if dico[serv]==0:
+                    countNull+=1
+            res[i]=countNull
+        return res
+            
