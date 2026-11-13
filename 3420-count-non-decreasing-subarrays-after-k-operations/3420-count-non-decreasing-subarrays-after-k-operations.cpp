@@ -1,24 +1,27 @@
+
 class Solution {
 public:
     long long countNonDecreasingSubarrays(vector<int>& nums, int k) {
-        int n = nums.size(), head = n, tail = n, r = n - 1;
-        vector<int> starts(n);  // where each plateau starts, left to right: starts[head..tail)
-        long long ans = 0, water = 0;
-        for (int l = n - 1; l >= 0; --l) {
-            int x = nums[l];
-            while (head < tail && nums[starts[head]] <= x) {  // x floods the plateau that starts at starts[head]
-                int s = starts[head++];
-                int end = head < tail ? starts[head] : r + 1;
-                water += 1LL * (x - nums[s]) * (end - s);
+        int n = nums.size(), j = n - 1;
+        long long ans = 0, cost = 0;
+        deque<pair<int, int>> dq;
+
+        for (int i = n - 1; i >= 0; i--) {
+            int cnt = 1;
+            while (!dq.empty() && dq.back().first < nums[i]) {
+                auto [v, c] = dq.back();
+                dq.pop_back();
+                cnt += c;
+                cost += 1LL * (nums[i] - v) * c;
             }
-            starts[--head] = l;
-            while (water > k) {  // the right end leaves with its water
-                water -= nums[starts[tail - 1]] - nums[r];
-                if (starts[tail - 1] == r)
-                    --tail;
-                --r;
+            dq.push_back({nums[i], cnt});
+            while (cost > k) {
+                auto [v, c] = dq.front();
+                dq.pop_front();
+                cost -= v - nums[j--];
+                if (--c) dq.push_front({v, c});
             }
-            ans += r - l + 1;
+            ans += j - i + 1;
         }
         return ans;
     }
