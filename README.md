@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0292-nim-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0342-power-of-four) |
+| [0367-valid-perfect-square](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0367-valid-perfect-square) |
 | [0415-add-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0415-add-strings) |
 | [0441-arranging-coins](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0441-arranging-coins) |
 | [0445-add-two-numbers-ii](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0445-add-two-numbers-ii) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0069-sqrtx) |
 | [0278-first-bad-version](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0278-first-bad-version) |
+| [0367-valid-perfect-square](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0441-arranging-coins) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
