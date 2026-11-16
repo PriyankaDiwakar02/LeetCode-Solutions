@@ -293,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/1927-sum-game) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/0415-add-strings) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3498-reverse-degree-of-a-string](https://github.com/PriyankaDiwakar02/LeetCode-Solutions/tree/master/3498-reverse-degree-of-a-string) |
 ## Greedy
